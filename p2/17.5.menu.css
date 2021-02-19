@@ -1,0 +1,163 @@
+/* Main menu settings */
+
+#menu {
+background:#24454C;
+height: auto;
+   clear:both;
+   float:left;
+   margin: 0.7em 0 0 0;
+   padding: 0;
+   width:100%;
+  z-index:1000; /* This makes the dropdown menus appear above the page content beow */
+   position:relative;
+}
+
+
+
+
+/* Top menu items */
+
+#menu ul {
+   margin: 0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+height: 100%;
+}
+
+.show, #submenu, .hide {
+   margin:0;
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+   top:0;
+height: 100%;
+}
+
+.show a, #submenu a, .hide a {
+   display:block;
+   margin:0;
+   padding: .5em 1.4em .5em;
+   font-size:1em;
+   line-height:1.5em;
+   text-decoration:none;
+color: #def2f3;
+background: #24454C;
+}
+
+#submenu a { /* set colours of More... */ }
+
+
+
+/* (when hovering over top menu items) */
+
+
+
+.show:hover a,
+.show.hover a {
+color: white;
+background: #1AD3F1;
+text-shadow: 2px 2px 2px #24454C;
+}
+
+#submenu:hover a {
+/*set colours of More... when hovering over submenu items */
+color:orange;
+background: purple;
+}
+
+#submenu #more:hover , #submenu #more.hover
+/* higher priority than submenu:hover a */
+ {
+/*set colours of More... when hovering over it */
+color: #def2f3;
+background: #24454C;
+ }
+
+
+
+
+
+/* Submenu items */
+
+
+#submenu ul {
+display: none;        /* Sub menus are hiden by default */
+   position:absolute;
+float: left;
+   top:2.5em;    /* 1.5em + .5em + .5em */
+   width: 100%; /* width of the drop-down menus */
+}
+
+#submenu:hover ul,
+#submenu.hover ul /* This line is required for IE 6 and below */
+{    
+display:block;       /* Make the sub menus appear on hover */
+}
+
+
+#submenu li {
+   clear:left;
+   width:100%;
+position: relative;
+float: left;
+padding: 0;
+margin: 0;
+ top:0;
+left:50%;
+height: 2.7em;
+}
+
+
+
+
+#submenu li a, #submenu:hover li a, #submenu.hover li a {
+   font-size: 1em;
+   position: relative;
+padding: .6em .3em .6em;
+color: #def2f3;		/* Sub menu items text colour */
+background: #24454C;	/* Sub menu items background colour */
+border:1px solid #1AD3F1;
+}
+
+
+/*when hovering over submenu items */
+
+
+
+#submenu li a:hover,
+#submenu:hover li a:hover,
+#submenu.hover li a:hover { /* This line is required for IE 6 and below */
+   background:#24454C; /* Sub menu items hover background colour */
+   color: #1AD3F1; /* Sub menu items hover text colour */
+}
+
+
+/* Hidden menu items - css to hide */
+
+.hide {
+display: none;
+}
+
+
+
+
+
+
+
+/* Media queries section */
+
+@media only screen and (max-width: 900px) {
+
+#submenu {
+display: none;
+}
+
+.hide {
+display: block;
+}
+
+}

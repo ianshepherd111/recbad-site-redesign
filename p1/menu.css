@@ -1,0 +1,66 @@
+#menubar {
+position: relative;
+width: 100%;
+padding: 0 0 0.4em 0;
+margin: 0 auto;
+height: auto;
+font-size: 1.5em;
+line-height: 2.2em;  /* equal to menu height */
+overflow: hidden;
+border-bottom: solid 0.2em #ff4080;
+}
+
+#menu {
+clear: left;
+float: right;
+margin: 0;
+padding: 0;
+position: relative;
+right: 50%;
+text-align: center;
+height: 100%;
+}
+
+.column {
+float:left;
+display:inline;
+position: relative;
+left: 50%;
+margin: 0;
+padding: 0;
+height: 100%;
+padding: 0em;
+}
+
+
+.column a {
+position: relative;
+display: inline;
+float: left;
+margin: 0;
+padding: 0 0.6em 0 0.6em;   /* uneven padding to hide */
+text-align: center;
+height: 2.2em;            /*see active:hover */
+color: #FFF;
+text-decoration: none;
+font-family:"Lucida Sans", Arial, Verdana, Helvetica,sans-serif;
+}
+
+
+.column a:hover {
+line-height: 275%;
+}
+
+
+.column a.active:hover {
+line-height: 220%;           /*set to match 2.2em above */
+}
+
+span {
+color: #FFF;
+display: inline;
+float: left;
+height: 100%;
+line-height: 2.1em; /*  ~  height of menu */
+padding: 0 0.3em 0 0.3em;
+}

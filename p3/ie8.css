@@ -1,0 +1,7 @@
+.sub, #submenu {
+display: none;
+}
+
+.hide {
+display: block;
+}

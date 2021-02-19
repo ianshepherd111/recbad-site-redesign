@@ -1,0 +1,11 @@
+Only mobile (>320px width)+desktop versions have been set, tablet is partially done
+
+Default layout is for desktop, browsers with media queries will be able to see a mobile version
+
+
+Tested in IE8/Chrome/FF - Essentials work in IE8, fine in Chrome/FF
+Favicon may not display for Chrome&IE8
+
+These two sites may be helpful:
+http://www.jpegmini.com/
+http://www.joejoesoft.com/cms/showpage.php?cid=108

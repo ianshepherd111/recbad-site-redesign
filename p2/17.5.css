@@ -1,0 +1,275 @@
+
+body {
+margin: 0;
+padding: 0;
+background: #DEF2F3;
+background-image:url('rbh.jpg');
+background-repeat:;
+background-position: top left;
+font-size: 12pt;
+}
+
+#content {
+margin: 0 auto ;
+width: 70%;
+min-width: 900px;
+}
+
+#header {
+background: #1093A7;
+font-family: "Lucida Sans", Tahoma, Geneva, sans-serif;
+color: #CBFBFD;
+text-align: center;
+margin: 2em 0 2em 0;
+padding: 0 0 6em 0;
+border: solid 0.2em #1AD3F1;
+}
+
+#header p {
+margin: 0;
+padding: 0.4em 0 0.3em 0;
+font-size: 2em;
+font-weight: bold;
+text-shadow: 2px 2px 2px #24454C;
+}
+
+#photo {
+padding: 0;
+}
+
+#photo p{
+padding: 0;
+margin: 0 auto 0 0;
+position: relative;
+text-align: center;
+font-size: 24pt;
+}
+
+#photo img {
+padding: 0;
+border: 2px solid #24454C;
+vertical-align: bottom;
+max-height: 406px;
+height: 7em;
+max-width: 98%;
+}
+
+
+
+#page {
+width:100%;
+margin-bottom: 2em;
+float:left;
+position:relative;
+}
+
+
+#main {
+    float:left;
+    width:70%;      /* width of left column */
+    position:relative;
+   color: #24454C;
+background: #ADD5D7;
+}
+
+#spacer {
+ float:left;
+    width:3%;      /* width of column */
+    position:relative;
+height: 1px;
+ }
+
+#side {
+    float:left;
+    width:27%;      /*width of right column */
+    position:relative;
+color: #24454C;
+}
+
+
+
+#main_inner {
+padding: 1em 1.3em 1em 1.3em;
+border: solid 0.15em #1093A7;
+min-height: 25.2em;                       /* height of side bar in ems */
+}
+
+#main_inner h1{
+text-decoration: none;
+text-align: center;
+font-size: 2.5em;
+margin: 0 0 0 0;
+padding: 0 0 0.2em 0;
+}
+
+#main_inner h2{
+margin: 0em;
+padding: 0.6em 0 0.4em 0;
+text-decoration: none;
+font-size: 1.6em;
+}
+
+#main_inner h3{
+margin: 0;
+padding: 0.2em 0;
+text-decoration: none;
+font-weight: normal;
+}
+
+#main_inner p{
+padding: 0.6em 0.2em;
+margin: 0 0 0 0;
+}
+
+#main_inner ol, #main_inner ul{
+margin: 0;
+padding-left: 2.5em;
+}
+
+#side_inner {
+padding: 0em 0.7em 0.3em 0.7em;
+font-size: 1em;
+background: #DEF2F3;
+margin: 0;
+border: solid 0.15em #1093A7;
+}
+
+#side img {
+width: 100%;
+max-width: 335px;
+border: none;
+}
+
+#side h1 {
+padding: 0.3em 0 0 0;
+font-size: 1.5em;
+font-weight: bold;
+margin: 0;
+}
+
+
+#side p {
+padding: 0.3em 0;
+margin: 0;
+}
+
+#side a {
+text-decoration: none;
+margin: 0;
+font-weight: bold;
+color: #1093A7;
+}
+
+#facebook, #sponsors, #subscribe, #email {
+padding: 0.2em 0em 0.4em 0;
+}
+
+#email {
+padding-bottom: 0.6em
+}
+
+
+input {
+display: block;
+padding: 0.2em;
+max-width: 200px;
+margin: 0;
+margin-bottom:0.2em;
+}
+
+.wider
+{
+width: 80%;
+}
+
+
+
+
+
+
+
+
+/* Potrait tablet???? */
+
+
+
+@media only screen and (max-width: 900px) {
+
+body {
+background-repeat: repeat;
+}
+
+#content {
+width: 90%;
+min-width: 600px;
+}
+
+#header {
+margin: 1em 0 1em 0;
+}
+
+#header p {
+}
+
+#photo {
+}
+
+#photo p{
+}
+
+#photo img {
+height: 6em;
+max-width: 98%;
+}
+
+#page {
+}
+
+#container3 {
+    width:100%;
+    overflow:hidden;
+margin-bottom: 1em;
+}
+
+#container2 {
+   width:100%;
+right: 0%;
+}
+
+#container1 {
+   width:100%;
+right: 0%;
+background: none;
+}
+
+#main {
+    width:100%;
+left:0%;
+    overflow:hidden;
+background: #ADD5D7;
+}
+
+#spacer {
+  width:100%;
+left:0%;
+    overflow:hidden;
+height: 20px;
+}
+
+#side {
+   width:100%;
+left:0%;
+    overflow:hidden;
+}
+
+#main_inner {
+padding: 1em;
+border: solid 0.15em #1093A7;
+}
+
+}
+
+
+#mobilemediaqueries{
+display: none;
+}
