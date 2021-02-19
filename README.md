@@ -1,6 +1,6 @@
 # recbad-site-redesign
 
-Sucessive redesign prototypes of the Recreational Badminton Club website.
+Sucessive redesign prototypes of the Recreational Badminton Club website made in 2014
 (most images have been replaced with placeholders)
 
 # Prototype 1
