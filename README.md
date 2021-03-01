@@ -1,6 +1,6 @@
 # Website redesign prototypes
 
-Sucessive redesign prototypes made in 2014 to potentially become the new website for Southampton University Recreational Badminton Club
+Sucessive redesign prototypes made in 2013 to potentially become the new website for Southampton University Recreational Badminton Club
 (most images have been replaced with placeholders)
 
 # [Prototype 1](p1)
